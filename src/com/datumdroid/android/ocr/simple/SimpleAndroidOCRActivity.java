@@ -211,8 +211,8 @@ public class SimpleAndroidOCRActivity extends Activity {
 		TessBaseAPI baseApi = new TessBaseAPI();
 		baseApi.setDebug(true);
 		
-		baseApi.setVariable(TessBaseAPI.VAR_CHAR_WHITELIST,"0123456789");
-		baseApi.setVariable(TessBaseAPI.VAR_CHAR_BLACKLIST,"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmopqrstuvwxyz");
+//		baseApi.setVariable(TessBaseAPI.VAR_CHAR_WHITELIST,"0123456789");
+//		baseApi.setVariable(TessBaseAPI.VAR_CHAR_BLACKLIST,"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmopqrstuvwxyz");
 		baseApi.init(DATA_PATH, lang);
 		baseApi.setImage(bitmap);
 		
